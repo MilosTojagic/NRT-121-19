@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oglasi>
+    <oglas>
+        <kategorija tip="automobili" />
+        <datumIsteka>11.12.2022.</datumIsteka>
+        <cena valuta="RSD">400.000</cena>
+        <tekst>Prodajem automobil, ocuvan</tekst>
+        <oznaka atribut="marka">Audi</oznaka>
+        <oznaka atribut="model">A4</oznaka>
+        <oznaka atribut="broj vrata">5</oznaka>
+        <oznaka atribut="tip motora">Dizel</oznaka>
+        <email tip="privatni">milos.mm@gmail.com</email>
+        <email tip="sluzbeni">milos.markovic@polovniautomobili.rs</email>
+    </oglas>
+    <oglas>
+        <kategorija tip="alati" />
+        <datumIsteka>01.07.2023.</datumIsteka>
+        <cena valuta="RSD">90.000</cena>
+        <tekst>Prodajem polovnu elektricnu busilicu</tekst>
+        <oznaka atribut="izdavac">Bosch</oznaka>
+        <oznaka atribut="model">Bosch GDB 180 WE Busilica za busenje dijamantskim krunama</oznaka>
+        <oznaka atribut="snaga">2000 W</oznaka>
+        <oznaka atribut="brzina obrtaja">900/2800</oznaka>
+        <email tip="privatni">dragan1@yahoo.com</email>
+    </oglas>
+</oglasi>
