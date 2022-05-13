@@ -1,0 +1,69 @@
+[
+    {
+        "id": 0,
+        "kategorija": "automobili",
+        "datumIsteka": "11.12.2022.",
+        "cena": {
+            "valuta": "RSD",
+            "cena": "400.000"
+        },
+        "tekst": "Prodajem automobil, ocuvan",
+        "oznaka": [
+            "Audi",
+            "A4",
+            "5",
+            "Dizel"
+        ],
+        "email": [
+            {
+                "tip": "privatni",
+                "adresa": "milos.mm@gmail.com"
+            },
+            {
+                "tip": "sluzbeni",
+                "adresa": "milos.markovic@polovniautomobili.rs"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "kategorija": "alati",
+        "datumIsteka": "01.07.2023.",
+        "cena": {
+            "valuta": "RSD",
+            "vrednost": "90.000"
+        },
+        "tekst": "Prodajem polovnu elektricnu busilicu",
+        "oznaka": [
+            "Bosch",
+            "Bosch GDB 180 WE Busilica za busenje dijamantskim krunama",
+            "2000 W",
+            "900/2800"
+        ],
+        "email": [
+            {
+                "tip": "privatni",
+                "aderesa": "dragan1@yahoo.com"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "kategorija": "kursevi",
+        "datumIsteka": "2022-10-04",
+        "cena": {
+            "valuta": "RSD",
+            "cena": "69"
+        },
+        "tekst": "kurs",
+        "oznaka": [
+            "oznakaaaa"
+        ],
+        "email": [
+            {
+                "tip": "sluzbeni",
+                "adresa": "mail@gmail.com"
+            }
+        ]
+    }
+]
