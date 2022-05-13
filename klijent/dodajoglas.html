@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodaj oglas</title>
+</head>
+<body>
+    <nav>
+        <a href="/oglasi">Pogledaj sve oglase</a>
+        <br>
+        <a href="/dodajoglas">Dodaj oglas</a>
+    </nav>
+<br>
+<br>
+<h2>Dodajte oglas</h2>
+<br>
+    <form action="/snimioglas" method="post">
+        <label>Izaberite Kategoriju Proizvoda</label>
+        <br>
+        <select name="kat">
+            <option value="automobili">automobili</option>
+            <option value="alati">alati</option>
+            <option value="trotineti">trotineti</option>
+            <option value="kursevi">kursevi</option>
+        </select>
+        <br>
+        <br>
+        <label for="">Unesite Datum Isteka Oglasa</label>
+        <br>
+        <input type="date" name="vreme">
+        <br>
+        <br>
+        <label for="">Unesite Cenu</label>
+        <br>
+        <input type="number" name="cena" placeholder="Unesite cenu">
+        <select name="valuta">
+            <option value="RSD">RSD</option>
+            <option value="EUR">EUR</option>
+            <option value="CHF">CHF</option>
+            <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+        </select>
+        <br>
+        <br>
+        <label for="">Unesite Tekst Oglasa</label>
+        <br>
+        <input type="text" name="text" placeholder="Unesite tekst">
+        <br>
+        <br>
+        <label for="">Unesite Oznake</label>
+        <br>
+        <input type="text" name="Oznaka" placeholder="Unesite oznake">
+        <br>
+        <label for="">Unesite Vasu Email Adresu</label>
+        <br>
+        <input type="text" name="email" placeholder="Unesite vas email">
+        <select name="tipemail">
+            <option value="privatni">Privatni</option>
+            <option value="sluzbeni">Sluzbeni</option>
+        </select>
+        <br>
+        <button type="submit">Dodaj Oglas</button>
+    </form>
+
+
+
+
+<script>
+    
+
+
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "servis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "libxmljs2": "^0.30.1",
+    "servis": "file:",
+    "xml2js": "^0.4.23"
+  },
+  "description": ""
+}

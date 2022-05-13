@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oglasi</title>
+    <style>
+        td{
+            padding-right: 15px;
+            padding-top: 15px;
+        }
+        table,th,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/oglasi">Pogledaj sve oglase</a>
+        <br>
+        <a href="/dodajoglas">Dodaj oglas</a>
+    </nav>
+    <br>
+        <form action="/filtriraj" method="post">
+            <select name="filter">
+                <option value="automobili">automobili</option>
+            <option value="alati">alati</option>
+            <option value="trotineti">trotineti</option>
+            <option value="kursevi">kursevi</option>
+            </select>
+            <button type="submit">Filtriraj</button>
+        </form>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Kategorija</td>
+                <td>Datum isteka</td>
+                <td>Valuta</td>
+                <td>Cena</td>
+                <td>Tekst</td>
+                <td>Oznake</td>
+                <td>Email</td>
+                <td>Izmeni</td>
+                <td>Obrisi</td>
+            </tr>
+        </thead>
+        <tbody>
+            #{data}
+        </tbody>
+    </table>
+</body>
+</html>
